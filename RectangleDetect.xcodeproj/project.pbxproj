@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D67BC081E3F92CC00F6DDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67BC071E3F92CC00F6DDC0 /* AppDelegate.swift */; };
+		7D67BC0A1E3F92CC00F6DDC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67BC091E3F92CC00F6DDC0 /* ViewController.swift */; };
+		7D67BC0C1E3F92CC00F6DDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67BC0B1E3F92CC00F6DDC0 /* Assets.xcassets */; };
+		7D67BC0F1E3F92CC00F6DDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D67BC0D1E3F92CC00F6DDC0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D67BC041E3F92CC00F6DDC0 /* RectangleDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D67BC071E3F92CC00F6DDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D67BC091E3F92CC00F6DDC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D67BC0B1E3F92CC00F6DDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D67BC0E1E3F92CC00F6DDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D67BC101E3F92CC00F6DDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D67BC011E3F92CC00F6DDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D67BBFB1E3F92CC00F6DDC0 = {
+			isa = PBXGroup;
+			children = (
+				7D67BC061E3F92CC00F6DDC0 /* RectangleDetect */,
+				7D67BC051E3F92CC00F6DDC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D67BC051E3F92CC00F6DDC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D67BC041E3F92CC00F6DDC0 /* RectangleDetect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D67BC061E3F92CC00F6DDC0 /* RectangleDetect */ = {
+			isa = PBXGroup;
+			children = (
+				7D67BC071E3F92CC00F6DDC0 /* AppDelegate.swift */,
+				7D67BC091E3F92CC00F6DDC0 /* ViewController.swift */,
+				7D67BC0B1E3F92CC00F6DDC0 /* Assets.xcassets */,
+				7D67BC0D1E3F92CC00F6DDC0 /* Main.storyboard */,
+				7D67BC101E3F92CC00F6DDC0 /* Info.plist */,
+			);
+			path = RectangleDetect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D67BC031E3F92CC00F6DDC0 /* RectangleDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D67BC131E3F92CC00F6DDC0 /* Build configuration list for PBXNativeTarget "RectangleDetect" */;
+			buildPhases = (
+				7D67BC001E3F92CC00F6DDC0 /* Sources */,
+				7D67BC011E3F92CC00F6DDC0 /* Frameworks */,
+				7D67BC021E3F92CC00F6DDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectangleDetect;
+			productName = RectangleDetect;
+			productReference = 7D67BC041E3F92CC00F6DDC0 /* RectangleDetect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D67BBFC1E3F92CC00F6DDC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Friedrich HAEUPL";
+				TargetAttributes = {
+					7D67BC031E3F92CC00F6DDC0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D67BBFF1E3F92CC00F6DDC0 /* Build configuration list for PBXProject "RectangleDetect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D67BBFB1E3F92CC00F6DDC0;
+			productRefGroup = 7D67BC051E3F92CC00F6DDC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D67BC031E3F92CC00F6DDC0 /* RectangleDetect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D67BC021E3F92CC00F6DDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D67BC0C1E3F92CC00F6DDC0 /* Assets.xcassets in Resources */,
+				7D67BC0F1E3F92CC00F6DDC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D67BC001E3F92CC00F6DDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D67BC0A1E3F92CC00F6DDC0 /* ViewController.swift in Sources */,
+				7D67BC081E3F92CC00F6DDC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D67BC0D1E3F92CC00F6DDC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D67BC0E1E3F92CC00F6DDC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D67BC111E3F92CC00F6DDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D67BC121E3F92CC00F6DDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7D67BC141E3F92CC00F6DDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RectangleDetect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.RectangleDetect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D67BC151E3F92CC00F6DDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RectangleDetect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.RectangleDetect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D67BBFF1E3F92CC00F6DDC0 /* Build configuration list for PBXProject "RectangleDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D67BC111E3F92CC00F6DDC0 /* Debug */,
+				7D67BC121E3F92CC00F6DDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D67BC131E3F92CC00F6DDC0 /* Build configuration list for PBXNativeTarget "RectangleDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D67BC141E3F92CC00F6DDC0 /* Debug */,
+				7D67BC151E3F92CC00F6DDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D67BBFC1E3F92CC00F6DDC0 /* Project object */;
+}
