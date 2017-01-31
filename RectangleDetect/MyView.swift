@@ -23,7 +23,7 @@ class MyView: NSView {
         
         // avoid optional unwrapping later :
         // 1
-        guard let fileURL = Bundle.main.url(forResource: "rect1", withExtension: "png")
+        guard let fileURL = Bundle.main.url(forResource: "rect3", withExtension: "png")
             else
         {
             NSLog("ciImage doesn't exist")
@@ -62,7 +62,7 @@ class MyView: NSView {
         for rect in rects as! [CIRectangleFeature] {
             
             NSLog("---------")
-            NSLog("Found rect at \(rect.bounds) of \(rects.count) Faces")
+            NSLog("Found rect at \(rect.bounds) of \(rects.count) Rectangle")
             
             //
             var rectViewBounds = rect.bounds
@@ -81,8 +81,27 @@ class MyView: NSView {
             NSLog("rectViewBounds is \(rectViewBounds)")
            
             NSColor.red.set()
+            let bpath:NSBezierPath = NSBezierPath()
+            bpath.appendRect(rectViewBounds)
+            bpath.stroke()
+            
+            // other components of CIRectangleFeature
+            NSLog("rect.topLeft=\(rect.topLeft) rect.topRight=\(rect.topRight) rect.bottomRight=\(rect.bottomRight) rect.bottomLeft=\(rect.bottomLeft)")
+            //rect = Rect(tL: rect.topLeft, tR: rect.topRight, bR: rect.bottomRight, bL: rect.bottomLeft)
+            
+            let p1 = rect.topLeft.applying(CGAffineTransform(scaleX: scale_w, y: scale_h))
+            let p2 = rect.topRight.applying(CGAffineTransform(scaleX: scale_w, y: scale_h))
+            let p3 = rect.bottomRight.applying(CGAffineTransform(scaleX: scale_w, y: scale_h))
+            let p4 = rect.bottomLeft.applying(CGAffineTransform(scaleX: scale_w, y: scale_h))
+
             let path:NSBezierPath = NSBezierPath()
-            path.appendRect(rectViewBounds)
+            NSColor.green.set()
+            path.move(to: p1)
+            path.line(to: p2)
+            path.line(to: p3)
+            path.line(to: p4)
+            path.line(to: p1)
+
             path.stroke()
 
         }
